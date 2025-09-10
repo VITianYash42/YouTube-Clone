@@ -1,6 +1,6 @@
 📺 YouTube Homepage Clone
 <p align="center">
-<img src="[LINK TO YOUR SCREENSHOT HERE]" alt="Project Screenshot" width="750"/>
+<img src="clone-image.png" alt="Project Screenshot" width="750"/>
 </p>
 
 A visually faithful and responsive clone of the YouTube homepage, built from scratch using pure HTML5 and CSS3. This project demonstrates a strong understanding of modern front-end layout techniques, including CSS Flexbox for flexible alignment and CSS Grid for complex, responsive galleries.
