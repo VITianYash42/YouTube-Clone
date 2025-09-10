@@ -1,0 +1,91 @@
+            .thumb1 {
+                width: 100%;
+                margin-right: 0;
+            }
+
+            .title1 {
+                font-family: Roboto, Arial;
+                font-weight: 500;
+                line-height: 20px;
+                font-size: 13px;
+                width: 250px;
+                margin-top: 0;
+                margin-bottom: 12px;
+            }
+
+            .author1 {
+                font-family: Roboto, Arial;
+                color: rgb(96, 96, 96);
+                font-size: 12px;
+                margin-bottom: 4px;
+            }
+
+            .stats1 {
+                color: rgb(96, 96, 96);
+                font-size: 12px;
+                margin-top: 0;
+                font-family: Roboto, Arial;
+            }
+
+            .video-info-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                row-gap: 40px;
+                column-gap: 10px;
+                height: 125px;
+            }
+            
+
+            .video-info {
+                display: inline-block;
+                width: 200px;
+            }
+
+            .channel-photo1 {
+                width: 40px;
+                border-radius: 50px;
+            }
+
+            .thumbnail-row {
+                margin-bottom: 12px;
+                position: relative;
+            }
+
+            .video-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 20px;
+                row-gap: 40px;
+            }
+
+            @media (max-width: 750px) {
+                .video-grid {
+                    grid-template-columns: 1fr 1fr;
+                }
+            }
+            @media (min-width: 751px) and (max-width: 999px) {
+                .video-grid {
+                    grid-template-columns: 1fr 1fr 1fr;
+                }
+            }
+
+            @media (min-width: 1000px) {
+                .video-grid {
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                }
+            }
+
+            .video-time {
+                position: absolute;
+                color: white;
+                background-color: black;
+                font-family: Roboto, Arial;
+                bottom: 10px;
+                right: 5px;
+                font-size: 12px;
+                padding-left: 4px;
+                padding-right: 4px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+                font-weight: bold;
+            }
